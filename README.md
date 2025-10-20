@@ -1,48 +1,55 @@
-# Discord Bot TypeScript Template
+# RiftGuardian
 
-[![discord.js](https://img.shields.io/github/package-json/dependency-version/KevinNovak/Discord-Bot-TypeScript-Template/discord.js)](https://discord.js.org/)
+[![discord.js](https://img.shields.io/github/package-json/dependency-version/erik-meier/lol-discord-bot/discord.js)](https://discord.js.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
-[![Stars](https://img.shields.io/github/stars/KevinNovak/Discord-Bot-TypeScript-Template.svg)](https://github.com/KevinNovak/Discord-Bot-TypeScript-Template/stargazers)
-[![Pull Requests](https://img.shields.io/badge/Pull%20Requests-Welcome!-brightgreen)](https://github.com/KevinNovak/Discord-Bot-TypeScript-Template/pulls)
+[![Stars](https://img.shields.io/github/stars/erik-meier/lol-discord-bot.svg)](https://github.com/erik-meier/lol-discord-bot/stargazers)
+[![Pull Requests](https://img.shields.io/badge/Pull%20Requests-Welcome!-brightgreen)](https://github.com/erik-meier/lol-discord-bot/pulls)
 
-**Discord bot** - A discord.js bot template written with TypeScript.
+**RiftGuardian** - A comprehensive League of Legends Discord bot for competitive gameplay and esports.
 
 ## Introduction
 
-This template was created to give developers a starting point for new Discord bots, so that much of the initial setup can be avoided and developers can instead focus on meaningful bot features. Developers can simply copy this repo, follow the [setup instructions](#setup) below, and have a working bot with many [boilerplate features](#features) already included!
+RiftGuardian is a comprehensive League of Legends Discord bot designed to enhance your competitive gameplay and esports experience. Whether you're a casual player looking to improve or a competitive team preparing for tournaments, RiftGuardian provides powerful tools for game analysis, team coordination, and community management.
 
-For help using this template, feel free to [join our support server](https://discord.gg/c9kQktCbsE)!
-
-[![Discord Shield](https://discord.com/api/guilds/660711235766976553/widget.png?style=shield)](https://discord.gg/c9kQktCbsE)
+Built with TypeScript and discord.js v14, RiftGuardian offers scalable architecture with built-in sharding and clustering capabilities to handle servers of any size.
 
 ## Features
 
-### Built-In Bot Features:
+### League of Legends Features:
 
-- Basic command structure.
-- Rate limits and command cooldowns.
-- Welcome message when joining a server.
-- Shows server count in bot status.
-- Posts server count to popular bot list websites.
-- Support for multiple languages.
+- Champion analysis and builds optimization
+- Match history tracking and statistics
+- Team composition recommendations
+- Tournament and scrim organization tools
+- Esports news and updates
+- Rank tracking and progression monitoring
+
+### Discord Bot Features:
+
+- Slash commands with autocomplete
+- Rate limits and command cooldowns
+- Welcome message when joining a server
+- Shows server count in bot status
+- Multi-language support
+- Comprehensive permission system
 
 ### Developer Friendly:
 
-- Written with TypeScript.
-- Uses the [discord.js](https://discord.js.org/) framework.
-- Built-in debugging setup for VSCode.
-- Written with [ESM](https://nodejs.org/api/esm.html#introduction) for future compatibility with packages.
-- Support for running with the [PM2](https://pm2.keymetrics.io/) process manger.
-- Support for running with [Docker](https://www.docker.com/).
+- Written with TypeScript
+- Uses the [discord.js](https://discord.js.org/) framework
+- Built-in debugging setup for VSCode
+- Written with [ESM](https://nodejs.org/api/esm.html#introduction) for future compatibility with packages
+- Support for running with the [PM2](https://pm2.keymetrics.io/) process manager
+- Support for running with [Docker](https://www.docker.com/)
 
 ### Scales as Your Bot Grows:
 
-- Supports [sharding](https://discordjs.guide/sharding/) which is required when your bot is in 2500+ servers.
-- Supports [clustering](https://github.com/KevinNovak/Discord-Bot-TypeScript-Template-Master-Api) which allows you to run your bot on multiple machines.
+- Supports [sharding](https://discordjs.guide/sharding/) which is required when your bot is in 2500+ servers
+- Supports clustering which allows you to run your bot on multiple machines
 
 ## Commands
 
-This bot has a few example commands which can be modified as needed.
+RiftGuardian includes powerful League of Legends-focused commands alongside essential Discord bot functionality.
 
 ### Help Command
 
@@ -56,7 +63,7 @@ A `/help` command to get help on different areas of the bot or to contact suppor
 
 ### Info Command
 
-A `/info` command to get information about the bot or links to different resources.
+A `/info` command to get information about RiftGuardian or links to different resources.
 
 ![](https://i.imgur.com/0kKOaWM.png)
 
@@ -68,13 +75,13 @@ A generic command, `/test`, which can be copied to create additional commands.
 
 ### Dev Command
 
-A `/dev` command which can only be run by the bot developer. Shows developer information, but can be extended to perform developer-only actions.
+A `/dev` command which can only be run by the bot developer. Shows developer information and can be extended to perform developer-only actions.
 
 ![](https://i.imgur.com/2o1vEno.png)
 
 ### Welcome Message
 
-A welcome message is sent to the server and owner when the bot is added.
+A welcome message is sent to the server and owner when RiftGuardian is added.
 
 ![](https://i.imgur.com/QBw8H8v.png)
 
@@ -97,37 +104,35 @@ A welcome message is sent to the server and owner when the bot is added.
     - Navigate into the downloaded source files and type `npm install`.
 5. Register commands.
     - In order to use slash commands, they first [have to be registered](https://discordjs.guide/creating-your-bot/command-deployment.html).
-    - Type `npm run commands:register` to register the bot's commands.
+    - Type `npm run commands:register` to register RiftGuardian's commands.
         - Run this script any time you change a command name, structure, or add/remove commands.
         - This is so Discord knows what your commands look like.
         - It may take up to an hour for command changes to appear.
 
 ## Start Scripts
 
-You can run the bot in multiple modes:
+You can run RiftGuardian in multiple modes:
 
 1. Normal Mode
     - Type `npm start`.
-    - Starts a single instance of the bot.
+    - Starts a single instance of RiftGuardian.
 2. Manager Mode
     - Type `npm run start:manager`.
-    - Starts a shard manager which will spawn multiple bot shards.
+    - Starts a shard manager which will spawn multiple RiftGuardian shards.
 3. PM2 Mode
     - Type `npm run start:pm2`.
     - Similar to Manager Mode but uses [PM2](https://pm2.keymetrics.io/) to manage processes.
 
-## Bots Using This Template
+## Contributing
 
-A list of Discord bots using this template.
+RiftGuardian is open source and welcomes contributions! Whether you're interested in adding new League of Legends features, improving existing functionality, or fixing bugs, your help is appreciated.
 
-| Bot                                                                    | Servers                                                       |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------- |
-| [Birthday Bot](https://top.gg/bot/656621136808902656)                  | ![](https://top.gg/api/widget/servers/656621136808902656.svg) |
-| [QOTD Bot](https://top.gg/bot/713586207119900693)                      | ![](https://top.gg/api/widget/servers/713586207119900693.svg) |
-| [Friend Time](https://top.gg/bot/471091072546766849)                   | ![](https://top.gg/api/widget/servers/471091072546766849.svg) |
-| [Bento](https://top.gg/bot/787041583580184609)                         | ![](https://top.gg/api/widget/servers/787041583580184609.svg) |
-| [NFT-Info](https://top.gg/bot/902249456072818708)                      | ![](https://top.gg/api/widget/servers/902249456072818708.svg) |
-| [Skylink-IF](https://top.gg/bot/929527099922993162)                    | ![](https://top.gg/api/widget/servers/929527099922993162.svg) |
-| [Topcoder TC-101](https://github.com/topcoder-platform/tc-discord-bot) |                                                               |
+Feel free to:
+- Submit bug reports and feature requests
+- Create pull requests for improvements
+- Suggest new League of Legends integrations
+- Help with documentation
 
-Don't see your bot listed? [Contact us](https://discord.gg/c9kQktCbsE) to have your bot added!
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
