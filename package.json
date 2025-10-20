@@ -1,8 +1,8 @@
 {
-    "name": "my-bot",
+    "name": "riftguardian",
     "version": "1.0.0",
-    "author": "Kevin Novak",
-    "description": "A discord.js bot template written with TypeScript",
+    "author": "Erik Meier",
+    "description": "A comprehensive League of Legends Discord bot for casual and competitive gameplay as well as esports communities.",
     "license": "MIT",
     "private": true,
     "engines": {

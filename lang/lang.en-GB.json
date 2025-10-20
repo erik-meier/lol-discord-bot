@@ -186,7 +186,7 @@
             "translators": "[TranslatorName#1234](https://github.com/)"
         },
         "bot": {
-            "description": "{{REF:links.templateEmbed}} helps give developers a starting point for new Discord bots, so that much of the initial setup can be avoided and developers can instead focus on meaningful bot features."
+            "description": "RiftGuardian is a comprehensive League of Legends Discord bot designed for casual and competitive gameplay as well as esports communities."
         },
         "chatCommands": {
             "dev": "dev",
@@ -301,10 +301,10 @@
         "links": {
             "authorEmbed": "[{{COM:bot.author}}]({{COM:links.author}})",
             "docsEmbed": "[View Documentation]({{COM:links.docs}})",
-            "donateEmbed": "[Donate via PayPal]({{COM:links.donate}})",
+            "donateEmbed": "[Buy Me a Coffee]({{COM:links.donate}})",
             "inviteEmbed": "[Invite {{COM:bot.name}} to a Server!]({{COM:links.invite}})",
             "sourceEmbed": "[View Source Code]({{COM:links.source}})",
-            "supportEmbed": "[Join Support Server]({{COM:links.support}})",
+            "supportEmbed": "[Request a Feature or Report a Bug]({{COM:links.support}})",
             "templateEmbed": "[Discord Bot TypeScript Template]({{COM:links.template}})",
             "termsEmbed": "[View Terms of Service]({{COM:links.terms}})",
             "voteEmbed": "[Vote for {{COM:bot.name}}!]({{COM:links.vote}})"
