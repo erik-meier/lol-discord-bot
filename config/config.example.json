@@ -76,5 +76,32 @@
         "rateLimit": {
             "minTimeout": 30
         }
+    },
+    "riotApi": {
+        "key": "<RIOT_API_KEY>",
+        "defaultRegion": "na1",
+        "baseUrls": {
+            "americas": "https://americas.api.riotgames.com",
+            "asia": "https://asia.api.riotgames.com",
+            "europe": "https://europe.api.riotgames.com",
+            "sea": "https://sea.api.riotgames.com"
+        },
+        "rateLimits": {
+            "personalKey": {
+                "perSecond": 20,
+                "per2Minutes": 100
+            },
+            "productionKey": {
+                "perSecond": 500,
+                "per10Minutes": 30000
+            }
+        },
+        "cache": {
+            "enabled": true,
+            "summonerTtl": 300,
+            "rankedTtl": 3600,
+            "matchesTtl": 1800,
+            "championMasteryTtl": 1800
+        }
     }
 }

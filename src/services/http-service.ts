@@ -12,6 +12,16 @@ export class HttpService {
         });
     }
 
+    public async getWithHeaders(url: string | URL, headers: Record<string, string>): Promise<Response> {
+        return await fetch(url.toString(), {
+            method: 'get',
+            headers: {
+                Accept: 'application/json',
+                ...headers,
+            },
+        });
+    }
+
     public async post(url: string | URL, authorization: string, body?: object): Promise<Response> {
         return await fetch(url.toString(), {
             method: 'post',

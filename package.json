@@ -24,6 +24,7 @@
         "commands:view": "npm run build && node --enable-source-maps dist/start-bot.js commands view",
         "commands:register": "npm run build && node --enable-source-maps dist/start-bot.js commands register",
         "commands:rename": "npm run build && node --enable-source-maps dist/start-bot.js commands rename",
+        "test:riot-api": "npm run build && node --enable-source-maps dist/scripts/test-riot-api.js",
         "commands:delete": "npm run build && node --enable-source-maps dist/start-bot.js commands delete",
         "commands:clear": "npm run build && node --enable-source-maps dist/start-bot.js commands clear",
         "start": "npm run start:bot",
