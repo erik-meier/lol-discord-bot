@@ -4,7 +4,7 @@ This file provides guidance to AI assistants (like Github Copilot) when working 
 
 ## Project Overview
 
-This is a Discord bot template written in TypeScript using discord.js v14. The bot supports slash commands, buttons, reactions, and triggers, with built-in sharding and clustering capabilities for scaling.
+This is RiftGuardian, a comprehensive League of Legends Discord bot written in TypeScript using discord.js v14. The bot supports slash commands, buttons, reactions, and triggers, with built-in sharding and clustering capabilities for scaling.
 
 ## Essential Commands
 
